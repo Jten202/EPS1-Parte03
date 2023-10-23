@@ -9,7 +9,7 @@ import sqlite3
 
 
 # Conectar a la base de datos (o crearla si no existe)
-conexion = sqlite3.connect("pascacio_almacen.db")
+conexion = sqlite3.connect("pascacios_almacen.db")
 
 # Crear un cursor para ejecutar comandos SQL
 cursor = conexion.cursor()
@@ -31,4 +31,4 @@ conexion.close()
 
 
 
-print("Base de Datos 'pascacio_almacen' y tabla 'Producto' creadas exitosamente.")
+print("Base de Datos 'pascacios_almacen' y tabla 'Producto' creadas exitosamente.")
